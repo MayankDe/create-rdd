@@ -24,7 +24,10 @@ object obj1 {
 
     val rdd2 = sc.textFile("C:\\Users\\MAYANK\\Desktop\\BigProjRev\\Proj1\\src\\data\\input\\myk11.txt")
     rdd2.foreach(println)
-    
+
+    val rdd3 = sc.wholeTextFiles("C:\\Users\\MAYANK\\Desktop\\BigProjRev\\Proj1\\src\\data\\input\\myk11.txt")
+  rdd3.foreach(println)
+
   }
 
 }
